@@ -363,6 +363,7 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
 }
 
+
 .contact .row{
     display: flex;
     align-items: center;
@@ -443,7 +444,7 @@ user agent stylesheet
 }
 
 .skillset h1{
-    margin-top: 20rem ;
+    margin-top: 5rem ;
     font-size: 4rem;
 }
 
