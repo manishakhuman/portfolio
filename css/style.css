@@ -364,6 +364,75 @@ header .navbar ul li a:hover{
 }
 
 
+
+
+.badge  .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.badge  .box-container .box{
+    height: 25rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 4rem;
+    /* overflow: hidden; */
+    cursor: pointer;
+    position: relative;
+}
+
+.badge  .box-container .box .icons{
+    position: absolute;
+    top:10rem; right:-1rem;
+  }
+  
+  .badge  .box-container .box:hover .icons{
+    right: 8.5rem;
+}
+
+ 
+.badge  .box-container  .box .icons a{
+    display: block;
+    height:4.5rem;
+    width:11rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color:black;
+    background:pink;
+    border-radius: 10%;
+    margin-top: .7rem;
+    text-align: center;
+  }
+  
+  .badge .box-container .box .icons a:hover{
+    background:var(--pink);
+    color:#fff;
+  }
+  
+
+  .badge .box-container .box p{
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.badge  .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.badge  .box-container .box:hover img{
+    transform: scale(1.5);
+}
+
+
+
 .contact .row{
     display: flex;
     align-items: center;
@@ -569,6 +638,10 @@ footer span{
     }
 
     .portfolio .box-container .box{
+        width: 100%;
+    }
+
+    .badge .box-container .box{
         width: 100%;
     }
 
